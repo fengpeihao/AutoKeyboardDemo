@@ -8,7 +8,7 @@
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/btn_not_need_scroll"
         style="@style/largeButtonStyle"
-        android:text="仅底部view上移事例"
+        android:text="Just need the bottom button to move"
         app:layout_constraintBottom_toTopOf="@+id/btn_need_scroll"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/shape_white_radius_10"
@@ -18,7 +18,7 @@
         android:id="@+id/btn_need_scroll"
         style="@style/largeButtonStyle"
         android:layout_marginTop="20dp"
-        android:text="上面内容需要滑动的事例"
+        android:text="Need above content can scroll"
         android:background="@drawable/shape_white_radius_10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_not_need_scroll" />

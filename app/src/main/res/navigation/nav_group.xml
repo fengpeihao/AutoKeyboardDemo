@@ -23,14 +23,14 @@
     <fragment
         android:id="@+id/notNeedScrollFragment"
         android:name="com.cfxc.autokeyboarddemo.fragment.NotNeedScrollFragment"
-        android:label="仅需底部上移的事例">
+        android:label="Just need the bottom button to move">
 
     </fragment>
 
     <fragment
         android:id="@+id/needScrollFragment"
         android:name="com.cfxc.autokeyboarddemo.fragment.NeedScrollFragment"
-        android:label="上部内容需要移动的事例">
+        android:label="Need above content can scroll">
 
     </fragment>
 </navigation>
