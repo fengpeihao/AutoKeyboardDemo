@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_group"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.cfxc.autokeyboarddemo.fragment.HomeFragment">
+        <action
+            android:id="@+id/action_start_not_need_scroll_fragment"
+            app:destination="@id/notNeedScrollFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+
+        <action
+            android:id="@+id/action_start_need_scroll_fragment"
+            app:destination="@id/needScrollFragment"
+            app:enterAnim="@anim/slide_in_right"
+            app:exitAnim="@anim/slide_out_left" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/notNeedScrollFragment"
+        android:name="com.cfxc.autokeyboarddemo.fragment.NotNeedScrollFragment"
+        android:label="仅需底部上移的事例">
+
+    </fragment>
+
+    <fragment
+        android:id="@+id/needScrollFragment"
+        android:name="com.cfxc.autokeyboarddemo.fragment.NeedScrollFragment"
+        android:label="上部内容需要移动的事例">
+
+    </fragment>
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="AutoKeyboardConstraintLayout">
+        <attr name="bottomViewIds"/>
+        <attr name="aboveViewId"/>
+        <attr name="autoMargin"/>
+        <attr name="autoType"/>
+    </declare-styleable>
+    <attr name="bottomViewIds" format="string" />
+    <attr name="aboveViewId" format="reference" />
+    <attr name="autoMargin" format="dimension" />
+    <attr name="autoType" format="flags">
+        <flag name="normal" value="0" />
+        <flag name="auto_translation" value="1" />
+        <flag name="auto_scroll" value="2" />
+    </attr>
+
+</resources>
