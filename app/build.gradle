@@ -45,4 +45,5 @@ dependencies {
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.3.0'
     implementation 'androidx.navigation:navigation-ui-ktx:2.3.3'
     implementation "androidx.navigation:navigation-fragment-ktx:2.3.3"
+    implementation project(path: ':library')
 }

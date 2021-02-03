@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<com.cfxc.autokeyboarddemo.autokeyboard.AutoKeyboardConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<com.fengpeihao.library.AutoKeyboardConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -22,4 +22,4 @@
         android:background="@drawable/shape_white_radius_10"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btn_not_need_scroll" />
-</com.cfxc.autokeyboarddemo.autokeyboard.AutoKeyboardConstraintLayout>
+</com.fengpeihao.library.AutoKeyboardConstraintLayout>
