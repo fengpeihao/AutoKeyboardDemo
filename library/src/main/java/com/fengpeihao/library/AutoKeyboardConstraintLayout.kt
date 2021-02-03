@@ -1,4 +1,4 @@
-package com.cfxc.autokeyboarddemo.autokeyboard
+package com.fengpeihao.library
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -13,7 +13,6 @@ import androidx.core.view.get
 import androidx.core.widget.NestedScrollView
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.recyclerview.widget.RecyclerView
-import com.cfxc.autokeyboarddemo.R
 
 
 /**
